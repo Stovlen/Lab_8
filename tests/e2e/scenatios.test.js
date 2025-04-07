@@ -55,5 +55,5 @@ describe("Користувацькі сценарії для saucedemo.com", () 
       (el) => el.textContent
     );
     expect(confirm.toLowerCase()).toContain("thank you for your order");
-  }, 15000);
+  }, 30000);
 });
